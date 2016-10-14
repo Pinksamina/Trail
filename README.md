@@ -5,11 +5,11 @@ A customizable line that follows the cursor written in JS
 
 
 # Easy to use
-<a href="https://rawgit.com/zuzurino/Trail/master/trail.js">**DOWNLOAD**</a>
+<a href="https://rawgit.com/zuzurino/Trail/master/trail.js"><h2>**DOWNLOAD RAW**</h2>*(Save As)*</a>
 
 If you dont want to download it then you can just add the JS file with this code 
 ```HTML
-<script src="http://zuzurino.com/trail.js"></script>
+<script src="https://rawgit.com/zuzurino/Trail/master/trail.js"></script>
 ```
 Now reload your page and it going load at 
 ```HTML
