@@ -18,14 +18,23 @@ Or you can just add the JS file with this code
 ```HTML
 <script src="https://rawgit.com/zuzurino/Trail/master/trail.js"></script>
 ```
-> Now reload your page and it going load at 
+> **Upon reload the canvas will apear at the back or the page because of** <code>z-index</code>
 ```HTML
 z-index: -9999;
 ```
-> Behind all the elements in a page
-> if you want to change this then use this syntax:
+> **Behind all the elements in a page (9999 to be exact).**
+
+> **Which might make it imposible to see, so if you want to change its** <code>z-index</code> **then use this syntax:**
 ```HTML
-$("#canvas").css({'z-index', 'x'}); //Replace X with desired index
+//Replace x with desired index to bring FORWARD or BACKWARD
+$("#canvas").css({'z-index', 'x'}); 
+```
+> **You might also need to alter the** <code>z-index</code> **of other elements to make the trail visible well.**
+
+> **To change other element's** <code>z-index</code> **use this syntax:**
+```HTML
+//Replace 'element' with desired jQuery selector
+$('element').css({'z-index', 'x'}); 
 ```
 
 #Customizable!
