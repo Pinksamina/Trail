@@ -5,8 +5,9 @@ A customizable line that follows the cursor written in JS & jQuery
 
 
 # Easy to use
-*Note: page must have jQuery inorder for Trail.JS to work properly*
-you can use Google's CND below:
+\*\**Note: page must have jQuery inorder for Trail.JS to work properly*\*\*
+
+> you can use Google's CND by including this header:
 ```HTML
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 ```
@@ -17,10 +18,16 @@ Or you can just add the JS file with this code
 ```HTML
 <script src="https://rawgit.com/zuzurino/Trail/master/trail.js"></script>
 ```
-Now reload your page and it going load at 
+> Now reload your page and it going load at 
 ```HTML
 z-index: -9999;
 ```
+> Behind all the elements in a page
+> if you want to change this then use this syntax:
+```HTML
+$("#canvas").css({'z-index', 'x'}); //Replace X with desired index
+```
+
 #Customizable!
   Set different colors using this syntax: 
   ```HTML
