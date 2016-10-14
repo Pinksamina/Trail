@@ -18,6 +18,8 @@ Or you can just add the JS file with this code
 ```HTML
 <script src="https://rawgit.com/zuzurino/Trail/master/trail.js"></script>
 ```
+
+#Setup
 > **Upon reload the canvas will apear at the back or the page because of** <code>z-index</code>
 ```HTML
 z-index: -9999;
