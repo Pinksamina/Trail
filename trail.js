@@ -15,8 +15,7 @@ c.fillStyle = color;
 c.fillRect(x, y, w, h);}
 
 //reset frame
-function reset(){
-c.clearRect(0, 0, cw, ch);}
+function reset(){c.clearRect(0, 0, cw, ch);}
 // Code Start
 
 //draw and setup loop
