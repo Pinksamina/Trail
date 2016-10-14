@@ -1,7 +1,8 @@
 //Create canvas and set props
 var canvasElement = "<canvas id='canvas' height='5000' width='5000' ></canvas>";
 $(canvasElement).appendTo('body');
-$('#canvas').css({'position':'fixed', 'z-index':'-9999'});
+$('#canvas').css({'position':'fixed', 'z-index':'-9999'}); 
+//change the z-index above to bring forward or backwards accordingly
 
 // CANVAS Functions & Variables
 var canvas = document.getElementById('canvas');
