@@ -1,11 +1,11 @@
-# Trail
+# Trail.JS
 A customizable line that follows the cursor written in JS
 
 <img src="https://raw.githubusercontent.com/zuzurino/Trail/f4ff9477dfcdafd3db176dedcd71f59e995b97d9/Examples/example.gif" />
 
 
 # Easy to use
-<a href="">**DOWNLOAD**</a>
+<a href="https://rawgit.com/zuzurino/Trail/master/trail.js">**DOWNLOAD**</a>
 
 If you dont want to download it then you can just add the JS file with this code 
 ```HTML
