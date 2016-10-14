@@ -5,9 +5,9 @@ A customizable line that follows the cursor written in JS
 
 
 # Easy to use
-<a href="https://rawgit.com/zuzurino/Trail/master/trail.js"><h2>**DOWNLOAD RAW**</h2>*(Save As)*</a>
+<a href="https://rawgit.com/zuzurino/Trail/master/trail.js"><h2>**Download RAW**</h2></a>
 
-If you dont want to download it then you can just add the JS file with this code 
+Or you can just add the JS file with this code 
 ```HTML
 <script src="https://rawgit.com/zuzurino/Trail/master/trail.js"></script>
 ```
